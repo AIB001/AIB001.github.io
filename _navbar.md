@@ -1,1 +1,1 @@
-+ ![Friendly Links](zjuer.com)
++ [Friendly Links](https://zjuers.com)
