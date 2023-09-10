@@ -1,1 +1,1 @@
-+ [Friendly Links](/README.md)
++ ![Friendly Links](zjuer.com)
