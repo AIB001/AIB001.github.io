@@ -1,5 +1,4 @@
 ---
----
 
 <font face='Times'>
 
@@ -548,4 +547,6 @@ puts [format "write the centroid of 2nd cluster: frame %d" $real_frame]
 ## References:
 [1] psfgen User's Guide 
 [2] VMD User's Guide
+
+---
 
