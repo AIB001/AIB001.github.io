@@ -5,7 +5,7 @@
 Cyclin-dependent kinase 7 (CDK7), along with cyclin H and MAT1, comprises the CDK-activating kinase (CAK)[1] CAK plays role in both phosphorylate C-terminal of some member in CDK-family such as CDK-1,2,3,4 and generate transcription as a compnent of TFⅡH(transalation factor).Also CAK phosphorylate.
 As reported in past aticles,there are few phosphorylation site in CAK complex:
 + Ser164  in CDK7:  to promote the combination of CDK7 and Cyclin H
-+ Ther170 in CDK7:  which is phosphorylated by PKC$\iota$(downstream messeager of PI3K),this phosphorytion incerease the substract specifity
++ Ther170 in CDK7:  which is phosphorylated by PKC $\iota$(downstream messeager of PI3K),this phosphorytion incerease the substract specifity
 + THR315 and Ser 304 in CyclinH,which have small impact to the system when running MD
 THZ1 is a covalent represser of CAK complex,which block the pocket so that CAK unable to perform phosphorylation function. And the cell cycle may stop in G2/M check point 
 ## Modeling with VMD
