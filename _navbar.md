@@ -1,1 +1,1 @@
-+ [Friendly Links](zjuers.com)
++ [Friendly Links](README.md)
