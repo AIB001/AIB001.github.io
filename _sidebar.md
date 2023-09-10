@@ -1,4 +1,4 @@
 + [My Biophysics Journey](/My-Biophysics-Journey/README.md)
   + Molecular Dynamic
       + [Basis of NAMD](/My-Biophysics-Journey/Molecular-Dynamic/NAMD_CDK7example.md)
-      + [Build Covalent system](/My-Biophysics-Journey/Molecular-Dynamic/Parametering-new-residues)
+      + [Build Covalent system](/My-Biophysics-Journey/Molecular-Dynamic/Parametering-new-residues.md)
