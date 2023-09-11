@@ -3,3 +3,5 @@
       - [Basis of NAMD](/My-Biophysics-Journey/Molecular-Dynamic/NAMD_CDK7example.md)
       - [Build Covalent system](/My-Biophysics-Journey/Molecular-Dynamic/Parametering-new-residu.md)
 - [My Life in ZJU](/Life-in-ZJU/README.md)
+  - [生科院素拓部](Life-in-ZJU/生科院素拓部/README.md)
+    - [CLS2023飞跃手册](Life-in-ZJU/生科院素拓部/CLS2023飞越手册.md) 
