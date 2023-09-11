@@ -1,5 +1,5 @@
 - [My Biophysics Journey](/My-Biophysics-Journey/README.md)
-  - Molecular Dynamic
+  - [Molecular Dynamic](My-Biophysics-Journey/Molecular-Dynamic/README.md)
       - [Basis of NAMD](/My-Biophysics-Journey/Molecular-Dynamic/NAMD_CDK7example.md)
       - [Build Covalent system](/My-Biophysics-Journey/Molecular-Dynamic/Parametering-new-residu.md)
 - [My Life in ZJU](/Life-in-ZJU/README.md)
