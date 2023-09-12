@@ -1,7 +1,5 @@
 # Shell脚本基本命令
-### A.I.B
-
-##shell变量
+## shell变量
 ### shell变量定义
 ```shell
 variable='value'
