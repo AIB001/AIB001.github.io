@@ -4,6 +4,7 @@
       - [Build Covalent system](/My-Biophysics-Journey/Molecular-Dynamic/Parametering-new-residu.md)
 - [Tools and Programming](/Tools-and-Programming/README.md)
     - [Shell](/Tools-and-Programming/Shell.md)
+    - [Pymol](/Tools-and-Programming/Pymol.md)
 - [My Life in ZJU](/Life-in-ZJU/README.md)
   - [生科院素拓部](/Life-in-ZJU/CCAD/README.md)
     - [CLS2023飞跃手册](/Life-in-ZJU/CCAD/CLS2023Handbook-for-International.md) 
