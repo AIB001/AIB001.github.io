@@ -69,7 +69,7 @@ DeprecationWarning: 'source deactivate' is deprecated. Use 'conda deactivate'.
 ```
 Use the common below to activate or deactivate the *base*:
 ```bash
-souece activate
+source activate
 ......
 source deactivate
 ```
