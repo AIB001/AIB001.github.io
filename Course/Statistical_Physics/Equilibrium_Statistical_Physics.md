@@ -13,11 +13,13 @@ $$
 
 
 
- 其中$\lambda$表示能级，$\{a_\lambda\}$表示粒子数按能级分布的一种可能
+ 其中 $\lambda$表示能级， $\{a_\lambda\}$表示粒子数按能级分布的一种可能
+ 
 $$
 P(\{a_\lambda\})\propto W(\{a_\lambda\})
 $$
-其中$P$是微观分布$\{a_\lambda\}$出现的可能性，$W(\{a_\lambda\})$表示围观分布$\{a_\lambda\}$可能的状态数（等概率原理）
+
+其中 $P$是微观分布 $\{a_\lambda\}$出现的可能性， $W(\{a_\lambda\})$表示围观分布 $\{a_\lambda\}$可能的状态数（等概率原理）
 
  ### 1.2 Maxwell-Bolztmann分布
 
@@ -25,32 +27,41 @@ $$
 W(\{a_\lambda\})=\frac{N!}{\prod_{\lambda}a_\lambda}\prod_{\lambda}g_\lambda^{a_\lambda}
 $$
 
-其中$\frac{N!}{\prod_{\lambda}a_\lambda}$一项表示粒子可以在能级间相互交换，$\prod_{\lambda}g_\lambda^{a_\lambda}$一项表示粒子可以在能级内相互交换
+其中 $\frac{N!}{\prod_{\lambda}a_\lambda}$一项表示粒子可以在能级间相互交换， $\prod_{\lambda}g_\lambda^{a_\lambda}$一项表示粒子可以在能级内相互交换
 
-求$W\{a_\lambda\}$的最大值等价于求$lnW\{a_\lambda\}$的最大值，利用拉格朗日乘子法考虑约束条件求最大值：
+求 $W\{a_\lambda\}$的最大值等价于求 $lnW\{a_\lambda\}$的最大值，利用拉格朗日乘子法考虑约束条件求最大值：
+
 $$
 -\sum_{\lambda}(ln\frac{a_\lambda}{g_\lambda}+\alpha+\beta\epsilon_\lambda)\delta a_\lambda=0
 $$
-其中已经利用的$Stirling$公式：$  lnN! = N(lnN-1)\ (N\rightarrow \infty)$
 
-得到$Maxwell-Bolztmann$分布的表达式：
+其中已经利用的 $Stirling$公式： $  lnN! = N(lnN-1)\ (N\rightarrow \infty)$
+
+得到 $Maxwell-Bolztmann$分布的表达式：
+
 $$
 \widetilde{a_\lambda}=g_\lambda e^{-\alpha-\beta\epsilon_\lambda}
 $$
 
 ### 1.3 宏观热力学量表达式
 
-定义配分函数$Z$：
+定义配分函数 $Z$：
+
 $$
 Z=\sum_{\lambda}g_\lambda e^{-\beta \varepsilon_\lambda}\\
 $$
+
 相关的宏观物理学量由统计关系得出：
+
 $$
+\begin{aligned}
 & E = -N\frac{\partial}{\partial \beta}lnZ\\
 & \overline{Y_l}= -\frac{N}{\beta}\frac{\partial}{\partial y_l}lnZ\\
 & S = Nk(lnZ-\beta\frac{\partial}{\partial \beta}lnZ)
+\end{aligned}
 $$
-特别的，对于$p-V$关系，在第三个式子中$y_l=-V:p=-\frac{N}{\beta}\frac{\partial}{\partial V}lnZ$
+
+特别的，对于 $p-V$关系，在第三个式子中 $y_l=-V:p=-\frac{N}{\beta}\frac{\partial}{\partial V}lnZ$
 
 ### 1.4 经典极限
 
@@ -58,25 +69,32 @@ $$
 Z=\sum_{n=0}^{\infty}e^{-\beta \varepsilon_n} \xrightarrow{\frac{\varDelta \varepsilon_n}{kT}\ll 1}Z=\int \cdots \int \frac{dq_1 \cdots dq_r dp_1 \cdots dp_r}{h^r}e^{-\beta \varepsilon}=\int \frac{d\omega}{h^r}e^{-\beta \varepsilon}
 $$
 
-其中$\frac{d\omega}{h^r}$可以看成是某种形式上的态密度，而$e^{-\beta \varepsilon}$可以看成是这个态密度的占据概率
+其中 $\frac{d\omega}{h^r}$可以看成是某种形式上的态密度，而 $e^{-\beta \varepsilon}$可以看成是这个态密度的占据概率
 
 ## 2.  德拜固体理论
 
 ### 2.1 简正模密度
 
-波矢$\mathbf{k}=(n_1,n_2,n_3)$，$k=\abs{\mathbf{k}}$，存在关系：
+波矢 $\mathbf{k}=(n_1,n_2,n_3)$，$k=\abs{\mathbf{k}}$，存在关系：
+
 $$
 \omega=2\pi\nu=ck
 $$
+
 简正模密度计算：
+
 $$
 G(\nu)=\int_0^\nu g(\nu')d\nu'
 $$
+
 由$(9)$式可以得到：
+
 $$
 n_1^2+n_2^2+n_3^2\leq (\frac{L}{c}\nu)^2
 $$
+
 偏振态密度的积分可以转化为求对应球的体积，考虑具有两个偏振方向：
+
 $$
 G(\nu)=2\times\frac{4\pi}{3}(\frac{L\nu}{c})^3=\frac{8\pi V}{3c^3}\nu^3\\
 g(\nu)=G'(\nu)=\frac{8\pi V}{c^3}\nu^2
@@ -85,26 +103,35 @@ $$
 ### 2.2 德拜固体理论
 
 德拜将固体看成弹性介质，可以传播弹性波，包括具有两个偏振方向的横波以及具有一个偏振的纵波，此时简正模密度：
+
 $$
 g(\nu)=2\times \frac{4\pi V}{3c_t^2}\nu^2d\nu+1\times \frac{4\pi V}{3c_1^2} \nu^2 d\nu
 $$
-其中$c_t,c_1$分别是横波和纵波的传播速度，假设$c_t=c_1=c$，$g(\nu)=\frac{4\pi V}{c^2}\nu^2 d\nu$，德拜截止频率$\nu_D$由下式给出，这里对简正模的积分应该等于整体的自由度，在三维空间中具有$3N$个运动自由度：
+
+其中 $c_t,c_1$分别是横波和纵波的传播速度，假设 $c_t=c_1=c$，$g(\nu)=\frac{4\pi V}{c^2}\nu^2 d\nu$，德拜截止频率 $\nu_D$由下式给出，这里对简正模的积分应该等于整体的自由度，在三维空间中具有 $3N$个运动自由度：
+
 $$
 \int_0^{\nu_D}g(\nu)d\nu=3N\\
 \nu_D^3=N\frac{9c^2}{4\pi V}
 $$
-频率为$\nu$的的谐振子的平均能量由下面的计算给出（$Z$是单粒子配分函数）：
+
+频率为 $\nu$的的谐振子的平均能量由下面的计算给出（ $Z$是单粒子配分函数）：
+
 $$
 Z=\sum_{n=1}^{\infty}e^{-\beta(n+\frac{1}{2})h\nu} = \frac{e^{-\beta h\nu/2}}{1-e^{-\beta h \nu}}\\
 \overline{\varepsilon(\nu)}=-\frac{\partial}{\partial \beta}lnZ=\frac{1}{2}h\nu+\frac{h\nu}{e^{h\nu /kT}-1}
 $$
-总能量$\overline E$由$(13)$和$(15)$式给出：
+
+总能量 $\overline E$由$(13)$和$(15)$式给出：
+
 $$
 \overline{E}=\int_0^{\nu_D}\overline{\varepsilon(\nu)}g(\nu)d\nu=\frac{4\pi V}{c^2}\int_0^{\nu_D}\frac{h\nu^3}{e^{h\nu \beta}-1}d\nu
 $$
+
 讨论两种极端情况：
 
 > **高温极限，$\beta \rightarrow 0$ ：**
+> 
 > $$
 > e^{h\nu \beta}-1=h\nu \beta\\
 > \overline{E}=\frac{4\pi V}{c^2}\int_0^{\nu_D}\frac{h\nu^3}{e^{h\nu \beta}-1}d\nu=\frac{4\pi V}{c^2 }\int_0^{\nu_D}kT\nu^2d\nu+E_0=\frac{4\pi VkT}{3c^2}\nu_D^3+E_0=3NKT+E_0
