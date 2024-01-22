@@ -1,7 +1,7 @@
 
 ## $\mathcal{Biology\ focus\ on\ the\ micro-to-macro\ from\ the\ perspective\ of\ Inductive\ Reasoning}$
 
-## $\mathcal{Physical\ focus\ on\ the\ micro-to-macro\ from\ the\ perspective\ of\ Deductive\ Reasoning}$
+## $\mathcal{Physics\ focus\ on\ the\ micro-to-macro\ from\ the\ perspective\ of\ Deductive\ Reasoning}$
 
 ![image](https://github.com/AIB001/AIB001.github.io/assets/141569168/6ba2b79f-3a81-4cfb-9a10-ad037a6c16cf)
 
