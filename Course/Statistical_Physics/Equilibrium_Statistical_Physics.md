@@ -130,34 +130,42 @@ $$
 
 讨论两种极端情况：
 
-> **高温极限，$\beta \rightarrow 0$ ：**
+> **高温极限， $\beta \rightarrow 0$ ：**
 > 
 > $$
 > e^{h\nu \beta}-1=h\nu \beta\\
 > \overline{E}=\frac{4\pi V}{c^2}\int_0^{\nu_D}\frac{h\nu^3}{e^{h\nu \beta}-1}d\nu=\frac{4\pi V}{c^2 }\int_0^{\nu_D}kT\nu^2d\nu+E_0=\frac{4\pi VkT}{3c^2}\nu_D^3+E_0=3NKT+E_0
 > $$
+> 
 > 此时的固体热容与经典理论一致：
+> 
 > $$
 > C_V=\frac{\partial \overline E}{\partial T}=3NK
 > $$
+> 
 
 >**低温极限， $\beta \rightarrow \infty,\nu_D \rightarrow \infty$：**
+>
 >$$
 >\overline{E}=\frac{4\pi V}{c^2}\int_0^{\infty}\frac{h\nu^3}{e^{h\nu \beta}-1}d\nu\overset{x=h\nu \beta}{=}\frac{4\pi V}{c^2}(\frac{kT}{h\nu})^4\int_0^{\infty}\frac{x^3}{e^x-1}dx
 >$$
->$\int_0^{\infty}\frac{x^3}{e^x-1}dx$是一个常数，此时热容满足：
+>
+> $\int_0^{\infty}\frac{x^3}{e^x-1}dx$是一个常数，此时热容满足：
+>
 >$$
 >C_V=\frac{\partial \overline E}{\partial T}\propto T^3
 >$$
->在低温情况下德拜固体理论解出的固体热容与利用声子气体的公式解出的关系一样，正比于$T^3$，系数略有差别
+>
+>在低温情况下德拜固体理论解出的固体热容与利用声子气体的公式解出的关系一样，正比于 $T^3$，系数略有差别
 
-德拜固体理论可以推广到$n$维空间的情况，需要修改的地方是：（1）求解简正模密度的时候需要计算$n$维球的体积（2）对简正模密度积分时，自由度变为$nN$
+德拜固体理论可以推广到 $n$维空间的情况，需要修改的地方是：（1）求解简正模密度的时候需要计算 $n$维球的体积（2）对简正模密度积分时，自由度变为 $nN$
 
 ## 3. 量子统计I：费米分布与玻色分布
 
  ### 3.1 费米统计与玻色统计
 
-与$Maxwell-Bolztmann$统计类似，费米统计与玻色统计按能级分布的$\{a_\lambda\}$都满足约束条件：
+与 $Maxwell-Bolztmann$统计类似，费米统计与玻色统计按能级分布的 $\{a_\lambda\}$都满足约束条件：
+
 $$
 \begin{aligned}
 \sum_{\lambda}a_\lambda=N\\
@@ -165,20 +173,27 @@ $$
 \end{aligned}
 $$
 
+
 > **费米统计**的可能微观状态数：
+> 
 > $$
 > W(\{a_\lambda\})=\mathbf{C}_{g_\lambda}^{a_\lambda}=\frac{g_\lambda !}{a_\lambda !(g_\lambda-a_\lambda)!}
 > $$
+> 
 > 上式满足泡利不相容原理，不可能有两个粒子占据同一个量子态，对应的最可几分布：
+> 
 > $$
 > a_\lambda=\frac{g_\lambda}{e^{\alpha+\beta \varepsilon_\lambda}+1}
 > $$
 
 > **玻色统计**的可能微观状态数：
+> 
 > $$
 > W(\{a_\lambda\})=\frac{(g_\lambda+a_\lambda-1)!}{a_\lambda !(g_\lambda-1)!}
 > $$
+> 
 > 玻色统计不需要满足$Pauli$不相容原理，利用隔板法划分，分母利用了隔板法，分子表示了同一隔板内粒子的全同性和隔板的全同，对应的对应的最可几分布：
+> 
 > $$
 > a_\lambda=\frac{g_\lambda}{e^{\alpha+\beta \varepsilon_\lambda}-1}
 > $$
@@ -186,18 +201,25 @@ $$
 ### 3.2 量子统计配分函数
 
 费米统计和玻色统计的配分函数：
+
 $$
 Z=\prod_{\lambda}(1\pm e^{-\alpha-\beta \varepsilon_\lambda})^{\pm g_\lambda}
 $$
-$+,-$号分别对应费米统计和玻色统计，常用的是：
+
+ $+,-$号分别对应费米统计和玻色统计，常用的是：
+ 
 $$
 lnZ=\pm \sum_{\lambda}g_\lambda\ ln(1\pm e^{-\alpha\pm\beta \varepsilon_\lambda})
 $$
+
 **粒子数、化学势的计算：**
+
 $$
 \bar N=-\frac{\partial }{\partial \alpha }lnZ
 $$
-由于体积$V$是广延量，一般$\bar N=-\frac{\partial }{\partial \alpha }lnZ\propto V$，$n=\frac{\bar N}{V}$，可以通过$n=f(\alpha,\beta)$将$\alpha=-\frac{\mu}{kT}=-\mu\beta$反解出来，从而进一步得到化学势；其余对应的热力学统计量与$MB$分布的形式基本一致，熵的表达式变为：
+
+由于体积 $V$是广延量，一般 $\bar N=-\frac{\partial }{\partial \alpha }lnZ\propto V$， $n=\frac{\bar N}{V}$，可以通过 $n=f(\alpha,\beta)$将 $\alpha=-\frac{\mu}{kT}=-\mu\beta$反解出来，从而进一步得到化学势；其余对应的热力学统计量与 $MB$分布的形式基本一致，熵的表达式变为：
+
 $$
 S = k(lnZ-\alpha\frac{\partial}{\partial \alpha}lnZ-\beta\frac{\partial}{\partial \beta}lnZ)
 $$
@@ -205,14 +227,19 @@ $$
 ### 3.3 量子巨正则系综
 
 巨正则系综配分函数：
+
 $$
 \Xi=\sum_{N=0}^{\infty}\sum_se^{-\alpha N-\beta \varepsilon_{Ns}}
 $$
-用巨正则系综推导量子统计的核心是用$\{a_\lambda\}$代替$N,s$来表示求和：
+
+用巨正则系综推导量子统计的核心是用 $\{a_\lambda\}$代替 $N,s$来表示求和：
+
 $$
 \Xi=\sum_{\{a_\lambda\}}W(\{a_\lambda\})e^{-\sum_\lambda(\alpha+\beta \varepsilon_\lambda)}
 $$
-上式表示对所有的$\{a_\lambda\}$求和，$W(\{a_\lambda\})=\prod_\lambda W_\lambda$：
+
+上式表示对所有的 $\{a_\lambda\}$求和， $W(\{a_\lambda\})=\prod_\lambda W_\lambda$：
+
 $$
 W(\{a_\lambda\})=
 \begin{cases}
@@ -221,7 +248,9 @@ W(\{a_\lambda\})=
 \frac{(g_\lambda+a_\lambda-1)!}{a_\lambda !(g_\lambda-1)!}\ \ (Bosons)
 \end{cases}
 $$
+
 因此：
+
 $$
 \begin{aligned}
 \Xi& =\sum_{\{a_\lambda\}}W(\{a_\lambda\})e^{-\sum_\lambda(\alpha+\beta \varepsilon_\lambda)}\\
@@ -230,7 +259,9 @@ $$
    & =\prod_\lambda \Xi_\lambda
 \end{aligned}
 $$
+
 利用二项式定理求和：
+
 $$
 \begin{aligned}
 \Xi_\lambda&=\sum_{a_\lambda}W_\lambda e^{-(\alpha+\beta \varepsilon_\lambda)a_\lambda}\\
@@ -242,8 +273,11 @@ $$
 \end{cases}
 \end{aligned}
 $$
+
 推出量子配分函数同**3.2**中最可几分布法推导的表达式，可以求出每一个能级的粒子平均占据数：
+
 $$
 \overline {a_\lambda}=-\frac{\partial}{\partial \alpha}ln\Xi_\lambda=\frac{g_\lambda}{e^{\alpha+\beta \varepsilon_\lambda} \pm 1}
 $$
-利用最可几分布法推导$Fermi-Dirac$分布和$Bose-Einstein$分布时候用到了小量近似，但是利用巨正则系综推导量子统计的分布时，并没有利用小量近似，而是通过严格计算得到.
+
+利用最可几分布法推导 $Fermi-Dirac$分布和 $Bose-Einstein$分布时候用到了小量近似，但是利用巨正则系综推导量子统计的分布时，并没有利用小量近似，而是通过严格计算得到.
