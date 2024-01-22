@@ -7,6 +7,12 @@
     - [Shell](/Tools-and-Programming/Shell.md)
     - [Pymol](/Tools-and-Programming/Pymol.md)
     - [WSL](/Tools-and-Programming/WSL.md)
+- [Courses and Learning]
+    - [Statistical Physics]
+      - [Equilibrium Statistical Physics](/Course/Statistical_Physics/Equilibrium_Statistical_Physics.md)
+    - [Ecology]
+      - [Ecology-1]
+      - [Ecology-2]
 - [My Life in ZJU](/Life-in-ZJU/README.md)
   - [生科院素拓部](/Life-in-ZJU/CCAD/README.md)
     - [CLS2023飞跃手册](/Life-in-ZJU/CCAD/CLS2023Handbook-for-International.md) 
