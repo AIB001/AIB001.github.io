@@ -9,7 +9,7 @@
     - [WSL](/Tools-and-Programming/WSL.md)
 - [Courses and Learning](/Course/README.md)
     - [Statistical Physics](/Course/Statistical_Physics/README.md)
-      - [Thermodynamics](/Course/Statistical_Physics/Statistical_Machnics.pdf)
+      - [Thermodynamics](https://github.com/AIB001/AIB001.github.io/blob/main/Course/Statistical_Physics/Statistical_Machnics.pdf)
       - [Equilibrium Statistical Physics](/Course/Statistical_Physics/Equilibrium_Statistical_Physics.md)
     - [Ecology](/Course/Ecology/README.md)
       - [Ecology-1](/Course/Ecology/Ecology1.md)
