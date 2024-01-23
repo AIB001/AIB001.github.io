@@ -9,6 +9,7 @@
     - [WSL](/Tools-and-Programming/WSL.md)
 - [Courses and Learning](/Course/README.md)
     - [Statistical Physics]
+      - [Thermodynamics](/Course/Statistical_Physics/Statistical_Machnics.pdf)
       - [Equilibrium Statistical Physics](/Course/Statistical_Physics/Equilibrium_Statistical_Physics.md)
     - [Ecology]
       - [Ecology-1](/Course/Ecology/Ecology1.md)
