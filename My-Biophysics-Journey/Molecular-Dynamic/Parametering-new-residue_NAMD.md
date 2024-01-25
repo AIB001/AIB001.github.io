@@ -255,6 +255,7 @@ vmd -dispdev text -e fix_backbone_restrain_ca_with_ligand.tcl
 exit
 ```
 + **One odd error**: If add much more water then we expected(like below shows), check **whether all patches are right**.
+  The reason behind the odd error: (1) in the psfgen.tcl coordguess may not correspond for the segment, so mistakes occur in coordinates;   (2) the atom name in the pdb file doesn't correspond for the atom name in rtf(or str) file.
 
   ![image](https://github.com/AIB001/NAMD/assets/141569168/e6c03a41-a2d5-45fc-b270-e39b14758f67)
 
