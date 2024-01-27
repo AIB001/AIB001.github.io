@@ -172,3 +172,5 @@ done
 ### 4.3 建模中加水的问题
 
 在建模过程中加入出现了对体系加入了过多的水，原因是在执行`guesscoord`命令的时候，由于找不到对应的拓扑信息或者一些玄学的原因（比如很多时候换一台机器建模？），一些原子的坐标会被guess到 $(0.000\ ,0.000\ ,0.000)$的坐标原点，导致体系扩大，对应的加入了过多的水，具体信息可以参考建模时候输出的日志信息来判断
+
+需要的脚本可以在这里找到：https://github.com/AIB001/AIB001.github.io/edit/main/My-Biophysics-Journey/Molecular-Dynamic/scripts/batch_modeling
