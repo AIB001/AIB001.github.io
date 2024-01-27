@@ -1,7 +1,7 @@
 - [My Biophysics Journey](/My-Biophysics-Journey/README.md)
   - [Molecular Dynamic](/My-Biophysics-Journey/Molecular-Dynamic/README.md)
       - [NAMD--Basis of NAMD](/My-Biophysics-Journey/Molecular-Dynamic/NAMD_CDK7example.md)
-      - [NAMD--Build Covalent system with NAMD](/My-Biophysics-Journey/Molecular-Dynamic/Parametering-new-residue_NAMD.md)
+      - [NAMD--Build Covalent system with NAMD](/My-Biophysics-Journey/Molecular-Dynamic/NAMD_Parametering_new_residue.md)
       - [NAMD--Protein-Lig_Batch_Modeling](/My-Biophysics-Journey/Molecular-Dynamic/NAMD_ProteinLig_Batch_Modeling.md)
       - [GROMACS--protocol](/My-Biophysics-Journey/Molecular-Dynamic/GROMACS_protocol.md)
 - [Tools and Programming](/Tools-and-Programming/README.md)
