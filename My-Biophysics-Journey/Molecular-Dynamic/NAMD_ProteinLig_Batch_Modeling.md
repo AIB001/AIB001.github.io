@@ -163,7 +163,7 @@ done
 
 需要注意的是，`openbabel`的参数`-p`会使得原来具有数字编号的原子名信息丢失，因此需要用检查文本文档的方式，利用`python`脚本添加原子编号，最后将含有正确电荷信息与原子编号的`pdb`文件转化为`mol2`文件
 
-![img](https://github-production-user-asset-6210df.s3.amazonaws.com/141569168/263619026-e449f683-c77f-48b8-bc98-11c2fc3ab161.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240127T125200Z&X-Amz-Expires=300&X-Amz-Signature=cf23b2494f3a84fff33342354f738393961c9a55f3175cb02956e443bfb9d6bd&X-Amz-SignedHeaders=host&actor_id=141569168&key_id=0&repo_id=675322533)
+![MD_files](https://github.com/AIB001/NAMD/assets/141569168/e449f683-c77f-48b8-bc98-11c2fc3ab161)
 
 ### 4.2 残基类型（RESI TYPE）说明
 
