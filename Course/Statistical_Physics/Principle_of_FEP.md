@@ -91,7 +91,7 @@ $$
 $$
 \Delta F_{0\rightarrow 1} =-kT\ln(<e^{-\beta \Delta H_{0\rightarrow 1}}>_0)
 $$
-其中下标$0$表示在哈密顿量 $H_0$的形式下的系综平均。对于这个哈密顿体系，由于具有时间反演性质：
+其中下标 $0$表示在哈密顿量 $H_0$的形式下的系综平均。对于这个哈密顿体系，由于具有时间反演性质：
 
 $$
 \Delta F_{1\rightarrow 0}=-kT\ln(<e^{-\beta \Delta H_{1\rightarrow 0}}>_1)
@@ -112,10 +112,12 @@ ln(1+x)=\sum_{n=1}^{+\infty}(-)^n\frac{1}{n}x^n
 $$
 
 $$
+\begin{aligned}
 \Delta F=& -kTln(<e^{-\beta \Delta H}>_0) \\
 =&-kTln(1-\beta<\Delta H>_0+\frac{1}{2}\beta^2<\Delta H^2>_0)\\
 =&-kT(-\beta <\Delta H>_0+\frac{1}{2}\beta^2<\Delta H^2>_0)+\frac{kT}{2}(-\beta <\Delta H>_0+\frac{1}{2}\beta^2<\Delta H^2>_0)^2\\
 =& <\Delta H>_0-\frac{\beta}{2}<\Delta H^2>_0+\frac{\beta}{2}<\Delta H>_0^2+\omicron(<\Delta H>_0^2)=<\Delta H>_0-\frac{\beta}{2}<Var(\Delta H)>_0
+\end{aligned}
 $$
 
 同样的，在 $H_1$下的系综也可以得到类似的自由能变化，为了不混淆符号不进一步展开。也就是无论从状态 $0$变化到 状态$1$还是从状态 $1$变化到状态 $0$都可以在理论上得到绝对值一样的自由能变化微扰结果。对 $\Delta F=<\Delta H>_0-\frac{\beta}{2}<Var(\Delta H)>_0$讨论，第一项是在 $\Delta H$下的系综平均。第二项反应了系综涨落带来的影响。
