@@ -17,7 +17,7 @@
       - [Ecology-2](/Course/Ecology/Ecology2.md)
     - [Computational Physics](Course/Computational_Physics/README.md)
       - [Summary for Computational Physics](Course/Computational_Physics/Computational_Physics_forZJU.md)
-    - [Field Theory](Course/Field_Theory)
+    - [Field Theory](Course/Field_Theory/README.md)
       -[EM Tensor for Relativity Theory](Course/Field_Theory/EM_Tensor1.md)
 - [My Life in ZJU](/Life-in-ZJU/README.md)
   - [生科院素拓部](/Life-in-ZJU/CCAD/README.md)
