@@ -1,5 +1,6 @@
 # 计算物理 -- $\mathcal{By\ A.I.B.}$
-
+## Lecture 1 计算物理导论
+## Lecture 2 Python（Numpy+Matplotlib）
 ## Lecture 3 经典数值方法
 
 ### 3.1 多项式插值
