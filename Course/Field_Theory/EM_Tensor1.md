@@ -3,7 +3,7 @@
 ## 电磁场张量
 
 $$
-{\boldsymbol{F}}^{\mu\nu}=\left\{\begin{array}{cccc}0&E_{x}/c&E_{y}/c&E_{z}/c\\-E_{x}/c&0&B_{z}&-B_{y}\\-E_{y}/c&-B_{z}&0&B_{x}\\-E_{z}/c&B_{y}&-B_{x}&0\end{array}\right\}
+{\boldsymbol{F}}^{\mu\nu}=\begin{pmatrix}0 & \frac{E_{x}}{c} & \frac{E_{y}}{c} & \frac{E_{z}}{c} \\ -\frac{E_{x}}{c} & 0 & B_{z} & -B_{y} \\ -\frac{E_{y}}{c} & -B_{z} & 0 & B_{x} \\ -\frac{E_{z}}{c} & B_{y} & -B_{x} & 0\end{pmatrix}
 $$
 
 同时存在与 $F^{\mu \gamma}$对偶的场张量 $G^{\mu \gamma}$
