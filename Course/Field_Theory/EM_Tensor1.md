@@ -3,7 +3,7 @@
 ## 电磁场张量
 
 $$
-\begin{pmatrix}
+F^{\mu \gamma}\begin{pmatrix}
 0 & \frac{E_x}{c} & \frac{E_y}{c} & \frac{E_z}{c} \\
 -\frac{E_x}{c} & 0 & B_z & -B_y \\
 -\frac{E_y}{c} & -B_z & 0 & B_x \\
