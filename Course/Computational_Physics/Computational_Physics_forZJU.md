@@ -1,4 +1,4 @@
-# 计算物理复习 -- $\mathcal{By\ A.I.B.}$
+# 计算物理 -- $\mathcal{By\ A.I.B.}$
 
 ## Lecture 3 经典数值方法
 
